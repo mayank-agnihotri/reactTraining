@@ -7,6 +7,7 @@ import Counter from "./comonents/Counter";
 import ConditionalComponent from "./comonents/ConditionalComponent";
 import Product from "./comonents/Product";
 import Form from "./comonents/Form";
+import Employees from "./comonents/Employees";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/*  <Counter/>*/}
       {/*  <ConditionalComponent/>*/}
       {/*  <Product/>*/}
-        <Form/>
+      {/*  <Form/>*/}
+        <Employees/>
     </div>
   );
 }
